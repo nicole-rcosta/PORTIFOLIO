@@ -1,0 +1,93 @@
+.header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+
+    /* altura do header */
+    height: 8vh;
+    
+    background: #F0D6D6;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.101);
+
+    /* flex para alinhar os itens horizontais */
+    display: flex;
+    /* alinha verticalmente ao centro */
+    align-items: center;
+    /* espaço entre logo, menu e login */
+    justify-content: space-between;
+    padding: 0 20px;
+    z-index: 1000; /*fica acima dos outros*/
+
+}
+
+.header-logo img{
+    height: 40px;
+
+}
+
+.header-menu ul{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    /* espaço entre os itens */
+    gap: 20px;
+
+}
+
+.header-menu li{
+    padding: 8px 15px;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background-color 0.3s ease, color 0.3s ease;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    user-select: none;
+    color: rgb(56, 6, 54);
+}
+
+.header-menu li:hover{
+    background-color: rgb(99, 21, 82);
+    color: #ffffff;
+    box-shadow: 0 4px 8px rgb(119, 74, 113);
+
+}
+
+.header-login{
+     display: flex;
+     align-items: center;
+     gap: 15px;
+
+}
+
+.header-icon {
+    margin: 0;
+    width: 40px;
+    height:40px;
+
+}   
+
+.header-icon img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    /* deixa o ícone redondo */
+    border-radius: 50%;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.15);
+
+}
+
+.header-search input{
+    padding: 7px 12px;
+    border: 1px solid #ccc;
+    border-radius: 20px;
+    outline: none;
+    transition: border-color 0.3s ease;
+    width: 180px;
+    color: rgb(66, 11, 59);
+}
+
+.header-search input:focus{
+    border-color: rgb(226, 169, 202);;
+    box-shadow: rgb(92, 9, 74);
+    
+}

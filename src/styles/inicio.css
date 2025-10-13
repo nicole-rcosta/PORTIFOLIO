@@ -1,0 +1,49 @@
+.content-inicio {
+    position: relative;
+    width: 100%;
+    height: 760px;
+    overflow: hidden;
+}
+
+.content-img-inicio {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    z-index: 1;
+}
+
+.content-info {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 38%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-end;
+    text-align: right;
+    gap: 35px;
+    padding-right: 25px;
+    z-index: 2;
+}
+
+.content-info_title {
+    color: #FFD5D5;
+    font-family: Inter;
+    font-size: 96px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.content-info p{
+    color: #E4D6D6;
+    font-family: Montserrat;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+

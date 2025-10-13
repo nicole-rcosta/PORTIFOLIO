@@ -1,0 +1,42 @@
+@import url(./reset.css);
+@import url(./header.css);
+@import url(./cards.css);
+@import url(./footer.css);
+@import url(inicio.css);
+@import url(biografia.css);
+@import url(galeria.css);
+@import url(repertorio.css);
+@import url(inspira.css);
+
+html{
+    scroll-behavior: smooth;
+
+}
+
+.content-inicio, .content-biografia, .content-galeria, .content-repertorio-atual, .content-para-quem-se-inspira{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 40px;
+    color: #fff;
+
+}
+
+.content-biografia{
+    background-color: #D4B1B2;;
+
+}
+
+.content-galeria{
+    background-color: #361C25;
+}
+
+.content-repertorio-atual{
+    background-color: #D4B1B2;
+}
+
+
+
+

@@ -1,0 +1,54 @@
+.content-para-quem-se-inspira{
+    background-color: #0D2D25;
+    padding: 60px 80px;
+    color: #ffffff;
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-wrap: wrap; /* Responsivo */
+    gap: 40px;
+}
+
+.inspira-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  flex-wrap: wrap; /* Responsivo */
+  gap: 40px;
+}
+
+.inspira-texto {
+  flex: 1 1 55%;
+  color: #F0D6D6;
+}
+
+.inspira-texto h2 {
+  font-size: 32px;
+  margin-bottom: 24px;
+}
+
+.inspira-texto ol {
+  padding-left: 20px;
+}
+
+.inspira-texto li {
+  margin-bottom: 20px;
+  font-size: 16px;
+  line-height: 1.6;
+}
+
+.inspira-texto strong {
+  color: #F0D6D6; /* Rosa claro para dar destaque como na referência */
+}
+
+.inspira-imagem {
+  flex: 1 1 40%;
+  text-align: right;
+}
+
+.inspira-imagem img {
+  width: 100%;
+  max-width: 400px;
+  border-radius: 8px;
+}
