@@ -1,0 +1,72 @@
+.content-biografia {
+  background-color: #d4b1b2;
+  color: #000;
+  font-family: Arial, sans-serif;
+  padding-bottom: 40px;
+}
+
+/* Faixa superior */
+.biografia-titulo {
+  background-color: #5b2d35;
+  padding: 10px 40px;
+  margin-top: -500px;
+  width: 100%;
+  position:absolute ;
+  z-index: 1;
+}
+
+.biografia-titulo h2 {
+  color: #f5dede;
+  font-size: 22px;
+  font-style: italic;
+  font-weight: bold;
+  margin: 0;
+}
+
+/* Container principal */
+.biografia-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 40px;
+  gap: 40px;
+  box-sizing: border-box;
+}
+
+/* Texto à esquerda */
+.biografia-texto {
+  flex: 1;
+  font-size: 15px;
+  line-height: 1.6;
+  text-align: justify;
+  justify-content: center;
+  
+  
+}
+
+.biografia-texto p {
+  margin-bottom: 20px;
+  
+}
+
+/* Imagem à direita */
+.biografia-imagem {
+  flex: 0 0 38%;
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-start;
+}
+
+.biografia-imagem img {
+  width: 100%;
+  height: auto;
+  border-radius: 4px;
+  object-fit: cover;
+  display: block;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+  z-index: 3;
+}
+
+

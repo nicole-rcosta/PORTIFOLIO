@@ -1,41 +1,49 @@
 .content-repertorio-atual {
   background-color: #D4B1B2;
-  padding: 0;
   font-family: Arial, sans-serif;
   color: #000;
+  position: relative;
+  box-sizing: border-box;
 }
 
 .repertorio-titulo {
-  background-color: #0D2D25; 
-  padding: 20px 60px;
+  background-color: #0D2D25;
+  width: 100%;
+  padding: 10px;
+  position: absolute;
+  align-items: flex-end;
+  margin-top: -40%;
+
 }
 
 .repertorio-titulo h2 {
   color: #fff;
   font-size: 24px;
-  margin: 0;
+  padding: 0px 10px;
 }
 
 .repertorio-content {
   display: flex;
   justify-content: space-between;
-  gap: 40px;
+  gap: 30px;
   padding: 40px 60px;
-  flex-wrap: wrap; /* Responsivo */
+  flex-wrap: wrap;
+  align-items: flex-start;
 }
 
 .repertorio-coluna {
-  flex: 1 1 30%;
+  flex: 1 1 22%; /* Quatro colunas equilibradas */
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
 }
 
 .repertorio-coluna img {
-  width: 50%;
+  width: 100%;
   height: auto;
+  max-height: 420px; /* Alinhamento visual */
+  object-fit: cover;
   border-radius: 6px;
-}
-
-.repertorio-texto {
-  flex: 1 1 40%;
 }
 
 .repertorio-texto h3 {
@@ -47,5 +55,5 @@
 .repertorio-texto p {
   font-size: 15px;
   line-height: 1.6;
-  margin-bottom: 25px;
+  margin-bottom: 0;
 }
