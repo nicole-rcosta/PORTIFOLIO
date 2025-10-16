@@ -9,7 +9,7 @@
 .biografia-titulo {
   background-color: #361C25;
   padding: 10px 60px;
-  margin-top: -600px;
+  margin-top: -30%;
   width: 100%;
   position:absolute ;
   z-index: 1;
@@ -17,10 +17,11 @@
 
 .biografia-titulo h2 {
   color: #f5dede;
-  font-size: 30px;
+  font-size: 25px;
   font-style: italic;
   font-weight: bold;
   margin: 0;
+  font-family: 'Lucida Sans';
 }
 
 /* Container principal */
@@ -38,19 +39,15 @@
 /* Texto à esquerda */
 .biografia-texto {
   flex: 1;
-  font-size: 18px;
-  line-height: 1.6;
+  font-size: 14px;
+  line-height: 1.5;
   text-align: justify;
   justify-content: center;
   margin-top: 15%;
-  margin-left: -200px;
-  
 }
 
 .biografia-texto p {
   margin-bottom: 20px;
-
-  
 }
 
 /* Imagem à direita */
@@ -61,17 +58,19 @@
   align-items: flex-start;
   position: relative; /* Controle mais preciso sobre a posição */
   margin-top: 4%; /* Ajusta o deslocamento da imagem para o lado direito */
+  left:20px;
+  top: 30px;
 }
 
 .biografia-imagem img {
-  width: 150%;
+  width: 100%;
   height: auto;
   border-radius: 8px;
   object-fit: cover;
   display: block;
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
   z-index: 3;
-  margin-right: -280px;
+  margin-right: -80px;
 }
 
 
