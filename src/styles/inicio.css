@@ -3,6 +3,7 @@
     width: 100%;
     height: 760px;
     overflow: hidden;
+    flex-wrap: wrap;
 }
 
 .content-img-inicio {
@@ -31,10 +32,11 @@
 .content-info_title {
     color: #FFD5D5;
     font-family: Inter;
-    font-size: 96px;
+    font-size: 100px;
     font-style: normal;
     font-weight: 600;
     line-height: normal;
+    margin-right: 100px;
 }
 
 .content-info p{
@@ -44,6 +46,7 @@
     font-style: normal;
     font-weight: 400;
     line-height: normal;
+    margin-right: 100px;
 }
 
 
