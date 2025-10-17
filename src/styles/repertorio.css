@@ -4,6 +4,7 @@
   color: #000;
   position: relative;
   box-sizing: border-box;
+  font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
 .repertorio-titulo {
@@ -12,14 +13,14 @@
   padding: 10px;
   position: absolute;
   align-items: flex-end;
-  margin-top: -42%;
+  margin-top: -38%;
 
 }
 
 .repertorio-titulo h2 {
   color: #d4b1b2;
-  font-size: 20px;
-  padding: 0px 5px;
+  font-size: 30px;
+  padding: 0px 30px;
 }
 
 .repertorio-content {
@@ -49,7 +50,7 @@
   transition: opacity 0.3s ease-in-out;
   opacity: 1;
   cursor: pointer;
-  top:20px;
+  top:10px;
   position: absolute;
 }
 
@@ -63,7 +64,7 @@
   transition: opacity 0.3s ease-in-out;
   opacity: 0;
   cursor: pointer;
-  top: 20px;
+  top: 10px;
   position: absolute;
 
 }

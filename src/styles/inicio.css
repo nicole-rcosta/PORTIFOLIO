@@ -29,7 +29,7 @@
     z-index: 2;
 }
 
-.content-info_title {
+.content-info_title{
     color: #FFD5D5;
     font-family: Inter;
     font-size: 100px;
@@ -41,7 +41,7 @@
 
 .content-info p{
     color: #E4D6D6;
-    font-family: Montserrat;
+    font-family: Georgia, 'Times New Roman', Times, serif;
     font-size: 32px;
     font-style: normal;
     font-weight: 400;

@@ -8,6 +8,7 @@
     align-items: flex-start;
     flex-wrap: wrap; /* Responsivo */
     gap: 40px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
 .inspira-content {
@@ -34,7 +35,7 @@
 
 .inspira-texto li {
   margin-bottom: 20px;
-  font-size: 16px;
+  font-size: 18px;
   line-height: 1.6;
 }
 
