@@ -36,6 +36,7 @@
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
+  position: relative;
 }
 
 .repertorio-coluna img {
@@ -44,6 +45,38 @@
   max-height: 420px; /* Alinhamento visual */
   object-fit: cover;
   border-radius: 6px;
+  z-index: 3;
+  transition: opacity 0.3s ease-in-out;
+  opacity: 1;
+  cursor: pointer;
+  top:20px;
+  position: absolute;
+}
+
+.repertorio-coluna video{
+  width: 100%;
+  height: auto;
+  max-height: 420px; /* Alinhamento visual */
+  object-fit: cover;
+  border-radius: 6px;
+  z-index: 1;
+  transition: opacity 0.3s ease-in-out;
+  opacity: 0;
+  cursor: pointer;
+  top: 20px;
+  position: absolute;
+
+}
+
+/* Quando o mouse estiver sobre o contêiner... */
+.repertorio-coluna:hover img {
+  /* 1. Oculta a imagem */
+  opacity: 0; 
+}
+
+.repertorio-coluna:hover video {
+  /* 2. Mostra o vídeo */
+  opacity: 1;
 }
 
 .repertorio-texto h3 {
