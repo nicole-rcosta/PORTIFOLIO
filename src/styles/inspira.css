@@ -9,6 +9,7 @@
     flex-wrap: wrap; /* Responsivo */
     gap: 40px;
     font-family: Georgia, 'Times New Roman', Times, serif;
+    height: 100vh;
 }
 
 .inspira-content {
